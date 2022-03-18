@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="he" >
+<head>
+
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>gallery</title>
+
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+
+    </style>
+</head>
+<body onload="currentSlide(1)">
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://images1.calcalist.co.il/PicServer3/2019/04/14/899516/9_lm.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://www.shieldsgazette.com/webimg/b25lY21zOmJlZDc3YTI1LWRiYjAtNGY5Yi05YTE4LTE2M2VjMjljODU4ZToxOGY5ZmQyMy1hZmNjLTRhMzktYTE1MC0yOWVmYWRjOGIyOTY=.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://www.nufc.co.uk/media/61811/allan-saint-maximin.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://www.thenorthernecho.co.uk/resources/images/13495133/" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+
+
+</body>
+</html>
